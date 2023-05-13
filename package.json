@@ -2,9 +2,10 @@
   "name": "invoice-params-lib",
   "version": "0.0.1",
   "description": "Biblioteca com os parâmetros necessários para criação de NF-e e NFC-e",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "build": "yarn tsc",
+    "build": "rm -rf ./dist && yarn tsc --build",
+    "clean": "tsc --build --clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

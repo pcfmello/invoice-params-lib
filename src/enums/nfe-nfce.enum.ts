@@ -1,0 +1,9 @@
+export enum NaturezaOperacaoEnum {
+  VENDA,
+  COMPRA,
+  TRANSFERENCIA,
+  DEVOLUCAO,
+  IMPORTACAO,
+  CONSIGNACAO,
+  REMESSA,
+}
