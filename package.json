@@ -1,0 +1,23 @@
+{
+  "name": "invoice-params-lib",
+  "version": "0.0.1",
+  "description": "Biblioteca com os parâmetros necessários para criação de NF-e e NFC-e",
+  "main": "index.ts",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcfmello/invoice-params-lib.git"
+  },
+  "author": "GEW Tecnologia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcfmello/invoice-params-lib/issues"
+  },
+  "homepage": "https://github.com/pcfmello/invoice-params-lib#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
