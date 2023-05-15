@@ -43,3 +43,13 @@ export enum IdentificacaoNfeEnum {
   DANFE_NFCE = 4,
   DANFE_NFCE_MENSAGEM_ELETRONICA = 5,
 }
+
+export enum TipoEmissaoNfeEnum {
+  NORMAL = 1,
+  CONTINGENCIA_FS_IA = 2,
+  CONTINGENCIA_SCAN = 3,
+  CONTINGENCIA_DPEC = 4,
+  CONTINGENCIA_FS_DA = 5,
+  CONTINGENCIA_SVC_AN = 6,
+  CONTINGENCIA_SVC_RS = 7,
+}

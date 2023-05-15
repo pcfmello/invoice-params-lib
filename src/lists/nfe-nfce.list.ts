@@ -5,6 +5,7 @@ import {
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
 import {
@@ -14,6 +15,7 @@ import {
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
+  TipoEmissaoNfeModel,
   TipoOperacaoModel,
 } from "../models/nfe-nfce.model";
 
@@ -137,5 +139,36 @@ export const identificacaoNfeList: IdentificacaoNfeModel[] = [
   {
     type: IdentificacaoNfeEnum.DANFE_NFCE_MENSAGEM_ELETRONICA,
     desc: "DANFE NFC-e em mensagem eletrônica",
+  },
+];
+
+export const tipoEmissaoNfeList: TipoEmissaoNfeModel[] = [
+  {
+    type: TipoEmissaoNfeEnum.NORMAL,
+    desc: "Emissão normal",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_FS_IA,
+    desc: "Contingência FS-IA, com impressão do DANFE em formulário de segurança",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_SCAN,
+    desc: "Contingência SCAN (Sistema de Contingência do Ambiente Nacional)",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_DPEC,
+    desc: "Contingência DPEC (Declaração Prévia da Emissão em Contingência)",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_FS_DA,
+    desc: "Contingência FS-DA, com impressão do DANFE em formulário de segurança",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_SVC_AN,
+    desc: "Contingência SVC-AN (SEFAZ Virtual de Contingência do AN)",
+  },
+  {
+    type: TipoEmissaoNfeEnum.CONTINGENCIA_SVC_RS,
+    desc: "Contingência SVC-RS (SEFAZ Virtual de Contingência do RS)",
   },
 ];
