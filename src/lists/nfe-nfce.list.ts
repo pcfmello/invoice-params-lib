@@ -1,6 +1,11 @@
-import { GenericList } from "../models/base.model";
-import { NaturezaOperacaoEnum } from "../enums/nfe-nfce.enum";
-import { NaturezaOperacaoModel } from "../models/nfe-nfce.model";
+import {
+  IndicadorFormaPagamentoEnum,
+  NaturezaOperacaoEnum,
+} from "../enums/nfe-nfce.enum";
+import {
+  IndicadorFormaPagamentoModel,
+  NaturezaOperacaoModel,
+} from "../models/nfe-nfce.model";
 
 export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
   {
@@ -30,5 +35,20 @@ export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
   {
     type: NaturezaOperacaoEnum.REMESSA,
     desc: "Remessa de mercadoria",
+  },
+];
+
+export const indicadorFormaPagamentoList: IndicadorFormaPagamentoModel[] = [
+  {
+    type: IndicadorFormaPagamentoEnum.A_VISTA,
+    desc: "À vista",
+  },
+  {
+    type: IndicadorFormaPagamentoEnum.A_PRAZO,
+    desc: "À prazo",
+  },
+  {
+    type: IndicadorFormaPagamentoEnum.OUTROS,
+    desc: "Outros",
   },
 ];

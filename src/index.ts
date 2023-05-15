@@ -1,14 +1,27 @@
-import { naturezaOperacaoList } from "./lists/nfe-nfce.list";
-import { NaturezaOperacaoEnum } from "./enums/nfe-nfce.enum";
-import { NaturezaOperacaoModel } from "./models/nfe-nfce.model";
+import {
+  NaturezaOperacaoEnum,
+  IndicadorFormaPagamentoEnum,
+} from "./enums/nfe-nfce.enum";
+import {
+  NaturezaOperacaoModel,
+  IndicadorFormaPagamentoModel,
+} from "./models/nfe-nfce.model";
+
+import {
+  naturezaOperacaoList,
+  indicadorFormaPagamentoList,
+} from "./lists/nfe-nfce.list";
 
 export {
-  // MODELS
-  NaturezaOperacaoModel,
-
   // ENUMS
   NaturezaOperacaoEnum,
+  IndicadorFormaPagamentoEnum,
+
+  // MODELS
+  NaturezaOperacaoModel,
+  IndicadorFormaPagamentoModel,
 
   // LISTS
   naturezaOperacaoList,
+  indicadorFormaPagamentoList,
 };
