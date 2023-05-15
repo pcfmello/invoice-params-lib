@@ -1,6 +1,7 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
   IdentificacaoAmbienteEnum,
+  IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
@@ -9,6 +10,7 @@ import {
 import {
   CodigoModeloDocumentoFiscalModel,
   IdentificacaoAmbienteModel,
+  IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
@@ -18,6 +20,7 @@ import {
 import {
   codigoModeloDocumentoFiscalList,
   identificacaoAmbienteList,
+  identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
   naturezaOperacaoList,
@@ -27,6 +30,7 @@ import {
 export {
   CodigoModeloDocumentoFiscalEnum,
   IdentificacaoAmbienteEnum,
+  IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
@@ -35,6 +39,7 @@ export {
   // MODELS
   CodigoModeloDocumentoFiscalModel,
   IdentificacaoAmbienteModel,
+  IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
@@ -43,6 +48,7 @@ export {
   // LISTS
   codigoModeloDocumentoFiscalList,
   identificacaoAmbienteList,
+  identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
   naturezaOperacaoList,

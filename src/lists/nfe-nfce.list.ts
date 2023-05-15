@@ -1,6 +1,7 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
   IdentificacaoAmbienteEnum,
+  IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
@@ -9,6 +10,7 @@ import {
 import {
   CodigoModeloDocumentoFiscalModel,
   IdentificacaoAmbienteModel,
+  IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
@@ -108,5 +110,32 @@ export const identificacaoAmbienteList: IdentificacaoAmbienteModel[] = [
   {
     type: IdentificacaoAmbienteEnum.HOMOLOGACAO,
     desc: "Homologação",
+  },
+];
+
+export const identificacaoNfeList: IdentificacaoNfeModel[] = [
+  {
+    type: IdentificacaoNfeEnum.SEM_GERACAO_DA_DANFE,
+    desc: "Sem geração da DANFE",
+  },
+  {
+    type: IdentificacaoNfeEnum.DANFE_RETRATO,
+    desc: "DANFE normal, retrato",
+  },
+  {
+    type: IdentificacaoNfeEnum.DANFE_PAISAGEM,
+    desc: "DANFE normal, paisagem",
+  },
+  {
+    type: IdentificacaoNfeEnum.DANFE_SIMPLIFICADO,
+    desc: "DANFE simplificado",
+  },
+  {
+    type: IdentificacaoNfeEnum.DANFE_NFCE,
+    desc: "DANFE NFC-e",
+  },
+  {
+    type: IdentificacaoNfeEnum.DANFE_NFCE_MENSAGEM_ELETRONICA,
+    desc: "DANFE NFC-e em mensagem eletrônica",
   },
 ];

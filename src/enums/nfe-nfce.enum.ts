@@ -34,3 +34,12 @@ export enum IdentificacaoAmbienteEnum {
   PRODUCAO = 1,
   HOMOLOGACAO = 2,
 }
+
+export enum IdentificacaoNfeEnum {
+  SEM_GERACAO_DA_DANFE = 0,
+  DANFE_RETRATO = 1,
+  DANFE_PAISAGEM = 2,
+  DANFE_SIMPLIFICADO = 3,
+  DANFE_NFCE = 4,
+  DANFE_NFCE_MENSAGEM_ELETRONICA = 5,
+}
