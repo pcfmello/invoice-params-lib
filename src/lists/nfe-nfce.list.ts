@@ -1,11 +1,13 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
   TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
+  IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
   TipoOperacaoModel,
@@ -79,3 +81,19 @@ export const tipoOperacaoList: TipoOperacaoModel[] = [
     desc: "Saída",
   },
 ];
+
+export const identificadorLocalDestinoOperacaoList: IdentificadorLocalDestinoOperacaoModel[] =
+  [
+    {
+      type: IdentificadorLocalDestinoOperacaoEnum.OP_INTERNA,
+      desc: "Interna",
+    },
+    {
+      type: IdentificadorLocalDestinoOperacaoEnum.OP_INTERESTADUAL,
+      desc: "Externa",
+    },
+    {
+      type: IdentificadorLocalDestinoOperacaoEnum.OP_COM_EXTERIOR,
+      desc: "Com o exterior",
+    },
+  ];

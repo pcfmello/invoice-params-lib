@@ -23,3 +23,9 @@ export enum TipoOperacaoEnum {
   ENTRADA = 0,
   SAIDA = 1,
 }
+
+export enum IdentificadorLocalDestinoOperacaoEnum {
+  OP_INTERNA = 1,
+  OP_INTERESTADUAL = 2,
+  OP_COM_EXTERIOR = 3,
+}
