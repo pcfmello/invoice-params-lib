@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  IdentificacaoAmbienteEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
@@ -28,5 +29,10 @@ export interface TipoOperacaoModel {
 
 export interface IdentificadorLocalDestinoOperacaoModel {
   type: IdentificadorLocalDestinoOperacaoEnum;
+  desc: string;
+}
+
+export interface IdentificacaoAmbienteModel {
+  type: IdentificacaoAmbienteEnum;
   desc: string;
 }

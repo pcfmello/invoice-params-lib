@@ -29,3 +29,8 @@ export enum IdentificadorLocalDestinoOperacaoEnum {
   OP_INTERESTADUAL = 2,
   OP_COM_EXTERIOR = 3,
 }
+
+export enum IdentificacaoAmbienteEnum {
+  PRODUCAO = 1,
+  HOMOLOGACAO = 2,
+}

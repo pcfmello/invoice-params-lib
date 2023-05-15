@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  IdentificacaoAmbienteEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
@@ -7,6 +8,7 @@ import {
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
+  IdentificacaoAmbienteModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
@@ -97,3 +99,14 @@ export const identificadorLocalDestinoOperacaoList: IdentificadorLocalDestinoOpe
       desc: "Com o exterior",
     },
   ];
+
+export const identificacaoAmbienteList: IdentificacaoAmbienteModel[] = [
+  {
+    type: IdentificacaoAmbienteEnum.PRODUCAO,
+    desc: "Producão",
+  },
+  {
+    type: IdentificacaoAmbienteEnum.HOMOLOGACAO,
+    desc: "Homologação",
+  },
+];
