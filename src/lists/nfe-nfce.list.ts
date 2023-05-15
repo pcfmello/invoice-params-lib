@@ -2,11 +2,13 @@ import {
   CodigoModeloDocumentoFiscalEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
+  TipoOperacaoModel,
 } from "../models/nfe-nfce.model";
 
 export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
@@ -66,3 +68,14 @@ export const codigoModeloDocumentoFiscalList: CodigoModeloDocumentoFiscalModel[]
       desc: "NFC-e",
     },
   ];
+
+export const tipoOperacaoList: TipoOperacaoModel[] = [
+  {
+    type: TipoOperacaoEnum.ENTRADA,
+    desc: "Entrada",
+  },
+  {
+    type: TipoOperacaoEnum.SAIDA,
+    desc: "Saída",
+  },
+];

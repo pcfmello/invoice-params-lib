@@ -18,3 +18,8 @@ export enum CodigoModeloDocumentoFiscalEnum {
   NFE = 55,
   NFCE = 65,
 }
+
+export enum TipoOperacaoEnum {
+  ENTRADA = 0,
+  SAIDA = 1,
+}
