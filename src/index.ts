@@ -1,27 +1,32 @@
 import {
-  NaturezaOperacaoEnum,
+  CodigoModeloDocumentoFiscalEnum,
   IndicadorFormaPagamentoEnum,
+  NaturezaOperacaoEnum,
 } from "./enums/nfe-nfce.enum";
 import {
-  NaturezaOperacaoModel,
+  CodigoModeloDocumentoFiscalModel,
   IndicadorFormaPagamentoModel,
+  NaturezaOperacaoModel,
 } from "./models/nfe-nfce.model";
 
 import {
-  naturezaOperacaoList,
+  codigoModeloDocumentoFiscalList,
   indicadorFormaPagamentoList,
+  naturezaOperacaoList,
 } from "./lists/nfe-nfce.list";
 
 export {
-  // ENUMS
-  NaturezaOperacaoEnum,
+  CodigoModeloDocumentoFiscalEnum,
   IndicadorFormaPagamentoEnum,
+  NaturezaOperacaoEnum,
 
   // MODELS
-  NaturezaOperacaoModel,
+  CodigoModeloDocumentoFiscalModel,
   IndicadorFormaPagamentoModel,
+  NaturezaOperacaoModel,
 
   // LISTS
-  naturezaOperacaoList,
+  codigoModeloDocumentoFiscalList,
   indicadorFormaPagamentoList,
+  naturezaOperacaoList,
 };

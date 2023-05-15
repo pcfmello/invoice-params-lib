@@ -1,8 +1,10 @@
 import {
+  CodigoModeloDocumentoFiscalEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
 import {
+  CodigoModeloDocumentoFiscalModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
 } from "../models/nfe-nfce.model";
@@ -52,3 +54,15 @@ export const indicadorFormaPagamentoList: IndicadorFormaPagamentoModel[] = [
     desc: "Outros",
   },
 ];
+
+export const codigoModeloDocumentoFiscalList: CodigoModeloDocumentoFiscalModel[] =
+  [
+    {
+      type: CodigoModeloDocumentoFiscalEnum.NFE,
+      desc: "NF-e",
+    },
+    {
+      type: CodigoModeloDocumentoFiscalEnum.NFCE,
+      desc: "NFC-e",
+    },
+  ];

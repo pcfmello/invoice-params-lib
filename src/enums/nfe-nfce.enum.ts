@@ -13,3 +13,8 @@ export enum IndicadorFormaPagamentoEnum {
   A_PRAZO = 1,
   OUTROS = 2,
 }
+
+export enum CodigoModeloDocumentoFiscalEnum {
+  NFE = 55,
+  NFCE = 65,
+}
