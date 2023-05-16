@@ -11,6 +11,7 @@ import {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  UnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
 
 export interface NaturezaOperacaoModel {
@@ -70,5 +71,10 @@ export interface IndicadorPresencaModel {
 
 export interface ProcessoEmissaoNfeModel {
   type: ProcessoEmissaoNfeEnum;
+  desc: string;
+}
+
+export interface UnidadeFederativaModel {
+  type: UnidadeFederativaEnum;
   desc: string;
 }

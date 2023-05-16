@@ -11,6 +11,7 @@ import {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  UnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
@@ -25,6 +26,7 @@ import {
   ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
+  UnidadeFederativaModel,
 } from "../models/nfe-nfce.model";
 
 export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
@@ -258,5 +260,116 @@ export const processoEmissaoNfeList: ProcessoEmissaoNfeModel[] = [
   {
     type: ProcessoEmissaoNfeEnum.AVULSA_PELO_CONTRIBUINTE_APLICATIVO_FISCO,
     desc: "Emissão NF-e pelo contribuinte com aplicativo fornecido pelo Fisco",
+  },
+];
+
+export const unidadeFederativaList: UnidadeFederativaModel[] = [
+  {
+    type: UnidadeFederativaEnum.RO,
+    desc: "Rondônia",
+  },
+  {
+    type: UnidadeFederativaEnum.AC,
+    desc: "Acre",
+  },
+  {
+    type: UnidadeFederativaEnum.AM,
+    desc: "Amazonas",
+  },
+  {
+    type: UnidadeFederativaEnum.RR,
+    desc: "Roraima",
+  },
+  {
+    type: UnidadeFederativaEnum.PA,
+    desc: "Pará",
+  },
+  {
+    type: UnidadeFederativaEnum.AP,
+    desc: "Amapá",
+  },
+  {
+    type: UnidadeFederativaEnum.TO,
+    desc: "Tocantins",
+  },
+  {
+    type: UnidadeFederativaEnum.MA,
+    desc: "Maranhão",
+  },
+  {
+    type: UnidadeFederativaEnum.PI,
+    desc: "Piauí",
+  },
+  {
+    type: UnidadeFederativaEnum.CE,
+    desc: "Ceará",
+  },
+  {
+    type: UnidadeFederativaEnum.RN,
+    desc: "Rio Grande do Norte",
+  },
+  {
+    type: UnidadeFederativaEnum.PB,
+    desc: "Paraíba",
+  },
+  {
+    type: UnidadeFederativaEnum.PE,
+    desc: "Pernambuco",
+  },
+  {
+    type: UnidadeFederativaEnum.AL,
+    desc: "Alagoas",
+  },
+  {
+    type: UnidadeFederativaEnum.SE,
+    desc: "Sergipe",
+  },
+  {
+    type: UnidadeFederativaEnum.BA,
+    desc: "Bahia",
+  },
+  {
+    type: UnidadeFederativaEnum.MG,
+    desc: "Minas Gerais",
+  },
+  {
+    type: UnidadeFederativaEnum.ES,
+    desc: "Espírito Santo",
+  },
+  {
+    type: UnidadeFederativaEnum.RJ,
+    desc: "Rio de Janeiro",
+  },
+  {
+    type: UnidadeFederativaEnum.SP,
+    desc: "São Paulo",
+  },
+  {
+    type: UnidadeFederativaEnum.PR,
+    desc: "Paraná",
+  },
+  {
+    type: UnidadeFederativaEnum.SC,
+    desc: "Santa Catarina",
+  },
+  {
+    type: UnidadeFederativaEnum.RS,
+    desc: "Rio Grande do Sul",
+  },
+  {
+    type: UnidadeFederativaEnum.MS,
+    desc: "Mato Grosso do Sul",
+  },
+  {
+    type: UnidadeFederativaEnum.MT,
+    desc: "Mato Grosso",
+  },
+  {
+    type: UnidadeFederativaEnum.GO,
+    desc: "Goiás",
+  },
+  {
+    type: UnidadeFederativaEnum.DF,
+    desc: "Distrito Federal",
   },
 ];

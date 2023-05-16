@@ -11,6 +11,7 @@ import {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  UnidadeFederativaEnum,
 } from "./enums/nfe-nfce.enum";
 
 import {
@@ -26,6 +27,7 @@ import {
   ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
+  UnidadeFederativaModel,
 } from "./models/nfe-nfce.model";
 
 import {
@@ -41,6 +43,7 @@ import {
   processoEmissaoNfeList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
+  unidadeFederativaList,
 } from "./lists/nfe-nfce.list";
 
 export {
@@ -56,6 +59,7 @@ export {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  UnidadeFederativaEnum,
 
   // MODELS
   CodigoModeloDocumentoFiscalModel,
@@ -70,6 +74,7 @@ export {
   ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
+  UnidadeFederativaModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,
@@ -84,4 +89,5 @@ export {
   processoEmissaoNfeList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
+  unidadeFederativaList,
 };
