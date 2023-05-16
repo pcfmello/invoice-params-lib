@@ -60,3 +60,8 @@ export enum FinalidadeEmissaoNfeEnum {
   AJUSTE = 3,
   DEVOLUCAO_MERCADORIA = 4,
 }
+
+export enum OperacaoConsumidorFinalEnum {
+  NORMAL = 0,
+  CONSUMIDOR_FINAL = 1,
+}

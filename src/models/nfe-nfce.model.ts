@@ -6,6 +6,7 @@ import {
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  OperacaoConsumidorFinalEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
@@ -52,5 +53,10 @@ export interface TipoEmissaoNfeModel {
 
 export interface FinalidadeEmissaoNfeModel {
   type: FinalidadeEmissaoNfeEnum;
+  desc: string;
+}
+
+export interface OperacaoConsumidorFinalModel {
+  type: OperacaoConsumidorFinalEnum;
   desc: string;
 }

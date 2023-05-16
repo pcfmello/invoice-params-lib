@@ -6,6 +6,7 @@ import {
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  OperacaoConsumidorFinalEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "./enums/nfe-nfce.enum";
@@ -17,6 +18,7 @@ import {
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
+  OperacaoConsumidorFinalModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 } from "./models/nfe-nfce.model";
@@ -29,6 +31,7 @@ import {
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
   naturezaOperacaoList,
+  operacaoConsumidorFinalList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
 } from "./lists/nfe-nfce.list";
@@ -41,6 +44,7 @@ export {
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  OperacaoConsumidorFinalEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 
@@ -52,6 +56,7 @@ export {
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
+  OperacaoConsumidorFinalModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 
@@ -63,6 +68,7 @@ export {
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
   naturezaOperacaoList,
+  operacaoConsumidorFinalList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
 };

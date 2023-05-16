@@ -6,6 +6,7 @@ import {
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
   NaturezaOperacaoEnum,
+  OperacaoConsumidorFinalEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
@@ -17,6 +18,7 @@ import {
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
   NaturezaOperacaoModel,
+  OperacaoConsumidorFinalModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 } from "../models/nfe-nfce.model";
@@ -191,5 +193,16 @@ export const finalidadeEmissaoNfeList: FinalidadeEmissaoNfeModel[] = [
   {
     type: FinalidadeEmissaoNfeEnum.DEVOLUCAO_MERCADORIA,
     desc: "Devolução de mercadoria",
+  },
+];
+
+export const operacaoConsumidorFinalList: OperacaoConsumidorFinalModel[] = [
+  {
+    type: OperacaoConsumidorFinalEnum.NORMAL,
+    desc: "Normal",
+  },
+  {
+    type: OperacaoConsumidorFinalEnum.CONSUMIDOR_FINAL,
+    desc: "Consumidor final",
   },
 ];
