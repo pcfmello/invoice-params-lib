@@ -12,8 +12,10 @@ import {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  CodigoUnidadeFederativaEnum,
   UnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
+
 import {
   CodigoModeloDocumentoFiscalModel,
   CodigoRegimeTributarioModel,
@@ -28,6 +30,7 @@ import {
   ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
+  CodigoUnidadeFederativaModel,
   UnidadeFederativaModel,
 } from "../models/nfe-nfce.model";
 
@@ -265,113 +268,113 @@ export const processoEmissaoNfeList: ProcessoEmissaoNfeModel[] = [
   },
 ];
 
-export const unidadeFederativaList: UnidadeFederativaModel[] = [
+export const codigoUnidadeFederativaList: CodigoUnidadeFederativaModel[] = [
   {
-    type: UnidadeFederativaEnum.RO,
+    type: CodigoUnidadeFederativaEnum.RO,
     desc: "Rondônia",
   },
   {
-    type: UnidadeFederativaEnum.AC,
+    type: CodigoUnidadeFederativaEnum.AC,
     desc: "Acre",
   },
   {
-    type: UnidadeFederativaEnum.AM,
+    type: CodigoUnidadeFederativaEnum.AM,
     desc: "Amazonas",
   },
   {
-    type: UnidadeFederativaEnum.RR,
+    type: CodigoUnidadeFederativaEnum.RR,
     desc: "Roraima",
   },
   {
-    type: UnidadeFederativaEnum.PA,
+    type: CodigoUnidadeFederativaEnum.PA,
     desc: "Pará",
   },
   {
-    type: UnidadeFederativaEnum.AP,
+    type: CodigoUnidadeFederativaEnum.AP,
     desc: "Amapá",
   },
   {
-    type: UnidadeFederativaEnum.TO,
+    type: CodigoUnidadeFederativaEnum.TO,
     desc: "Tocantins",
   },
   {
-    type: UnidadeFederativaEnum.MA,
+    type: CodigoUnidadeFederativaEnum.MA,
     desc: "Maranhão",
   },
   {
-    type: UnidadeFederativaEnum.PI,
+    type: CodigoUnidadeFederativaEnum.PI,
     desc: "Piauí",
   },
   {
-    type: UnidadeFederativaEnum.CE,
+    type: CodigoUnidadeFederativaEnum.CE,
     desc: "Ceará",
   },
   {
-    type: UnidadeFederativaEnum.RN,
+    type: CodigoUnidadeFederativaEnum.RN,
     desc: "Rio Grande do Norte",
   },
   {
-    type: UnidadeFederativaEnum.PB,
+    type: CodigoUnidadeFederativaEnum.PB,
     desc: "Paraíba",
   },
   {
-    type: UnidadeFederativaEnum.PE,
+    type: CodigoUnidadeFederativaEnum.PE,
     desc: "Pernambuco",
   },
   {
-    type: UnidadeFederativaEnum.AL,
+    type: CodigoUnidadeFederativaEnum.AL,
     desc: "Alagoas",
   },
   {
-    type: UnidadeFederativaEnum.SE,
+    type: CodigoUnidadeFederativaEnum.SE,
     desc: "Sergipe",
   },
   {
-    type: UnidadeFederativaEnum.BA,
+    type: CodigoUnidadeFederativaEnum.BA,
     desc: "Bahia",
   },
   {
-    type: UnidadeFederativaEnum.MG,
+    type: CodigoUnidadeFederativaEnum.MG,
     desc: "Minas Gerais",
   },
   {
-    type: UnidadeFederativaEnum.ES,
+    type: CodigoUnidadeFederativaEnum.ES,
     desc: "Espírito Santo",
   },
   {
-    type: UnidadeFederativaEnum.RJ,
+    type: CodigoUnidadeFederativaEnum.RJ,
     desc: "Rio de Janeiro",
   },
   {
-    type: UnidadeFederativaEnum.SP,
+    type: CodigoUnidadeFederativaEnum.SP,
     desc: "São Paulo",
   },
   {
-    type: UnidadeFederativaEnum.PR,
+    type: CodigoUnidadeFederativaEnum.PR,
     desc: "Paraná",
   },
   {
-    type: UnidadeFederativaEnum.SC,
+    type: CodigoUnidadeFederativaEnum.SC,
     desc: "Santa Catarina",
   },
   {
-    type: UnidadeFederativaEnum.RS,
+    type: CodigoUnidadeFederativaEnum.RS,
     desc: "Rio Grande do Sul",
   },
   {
-    type: UnidadeFederativaEnum.MS,
+    type: CodigoUnidadeFederativaEnum.MS,
     desc: "Mato Grosso do Sul",
   },
   {
-    type: UnidadeFederativaEnum.MT,
+    type: CodigoUnidadeFederativaEnum.MT,
     desc: "Mato Grosso",
   },
   {
-    type: UnidadeFederativaEnum.GO,
+    type: CodigoUnidadeFederativaEnum.GO,
     desc: "Goiás",
   },
   {
-    type: UnidadeFederativaEnum.DF,
+    type: CodigoUnidadeFederativaEnum.DF,
     desc: "Distrito Federal",
   },
 ];
@@ -388,5 +391,116 @@ export const codigoRegimeTributarioList: CodigoRegimeTributarioModel[] = [
   {
     type: CodigoRegimeTributarioEnum.REGIME_NORMAL,
     desc: "Regime Normal",
+  },
+];
+
+export const unidadeFederativaList: UnidadeFederativaModel[] = [
+  {
+    type: UnidadeFederativaEnum.RO,
+    desc: UnidadeFederativaEnum.RO,
+  },
+  {
+    type: UnidadeFederativaEnum.AC,
+    desc: UnidadeFederativaEnum.AC,
+  },
+  {
+    type: UnidadeFederativaEnum.AM,
+    desc: UnidadeFederativaEnum.AM,
+  },
+  {
+    type: UnidadeFederativaEnum.RR,
+    desc: UnidadeFederativaEnum.RR,
+  },
+  {
+    type: UnidadeFederativaEnum.PA,
+    desc: UnidadeFederativaEnum.PA,
+  },
+  {
+    type: UnidadeFederativaEnum.AP,
+    desc: UnidadeFederativaEnum.AP,
+  },
+  {
+    type: UnidadeFederativaEnum.TO,
+    desc: UnidadeFederativaEnum.TO,
+  },
+  {
+    type: UnidadeFederativaEnum.MA,
+    desc: UnidadeFederativaEnum.MA,
+  },
+  {
+    type: UnidadeFederativaEnum.PI,
+    desc: UnidadeFederativaEnum.PI,
+  },
+  {
+    type: UnidadeFederativaEnum.CE,
+    desc: UnidadeFederativaEnum.CE,
+  },
+  {
+    type: UnidadeFederativaEnum.RN,
+    desc: UnidadeFederativaEnum.RN,
+  },
+  {
+    type: UnidadeFederativaEnum.PB,
+    desc: UnidadeFederativaEnum.PB,
+  },
+  {
+    type: UnidadeFederativaEnum.PE,
+    desc: UnidadeFederativaEnum.PE,
+  },
+  {
+    type: UnidadeFederativaEnum.AL,
+    desc: UnidadeFederativaEnum.AL,
+  },
+  {
+    type: UnidadeFederativaEnum.SE,
+    desc: UnidadeFederativaEnum.SE,
+  },
+  {
+    type: UnidadeFederativaEnum.BA,
+    desc: UnidadeFederativaEnum.BA,
+  },
+  {
+    type: UnidadeFederativaEnum.MG,
+    desc: UnidadeFederativaEnum.MG,
+  },
+  {
+    type: UnidadeFederativaEnum.ES,
+    desc: UnidadeFederativaEnum.ES,
+  },
+  {
+    type: UnidadeFederativaEnum.RJ,
+    desc: UnidadeFederativaEnum.RJ,
+  },
+  {
+    type: UnidadeFederativaEnum.SP,
+    desc: UnidadeFederativaEnum.SP,
+  },
+  {
+    type: UnidadeFederativaEnum.PR,
+    desc: UnidadeFederativaEnum.PR,
+  },
+  {
+    type: UnidadeFederativaEnum.SC,
+    desc: UnidadeFederativaEnum.SC,
+  },
+  {
+    type: UnidadeFederativaEnum.RS,
+    desc: UnidadeFederativaEnum.RS,
+  },
+  {
+    type: UnidadeFederativaEnum.MS,
+    desc: UnidadeFederativaEnum.MS,
+  },
+  {
+    type: UnidadeFederativaEnum.MT,
+    desc: UnidadeFederativaEnum.MT,
+  },
+  {
+    type: UnidadeFederativaEnum.GO,
+    desc: UnidadeFederativaEnum.GO,
+  },
+  {
+    type: UnidadeFederativaEnum.DF,
+    desc: UnidadeFederativaEnum.DF,
   },
 ];

@@ -83,7 +83,7 @@ export enum ProcessoEmissaoNfeEnum {
   AVULSA_PELO_CONTRIBUINTE_APLICATIVO_FISCO = 3,
 }
 
-export enum UnidadeFederativaEnum {
+export enum CodigoUnidadeFederativaEnum {
   RO = 11,
   AC = 12,
   AM = 13,
@@ -117,4 +117,34 @@ export enum CodigoRegimeTributarioEnum {
   SIMPLES_NACIONAL = 1,
   SIMPLES_NACIONAL_EXCEDENTE = 2,
   REGIME_NORMAL = 3,
+}
+
+export enum UnidadeFederativaEnum {
+  RO = "RO",
+  AC = "AC",
+  AM = "AM",
+  RR = "RR",
+  PA = "PA",
+  AP = "AP",
+  TO = "TO",
+  MA = "MA",
+  PI = "PI",
+  CE = "CE",
+  RN = "RN",
+  PB = "PB",
+  PE = "PE",
+  AL = "AL",
+  SE = "SE",
+  BA = "BA",
+  MG = "MG",
+  ES = "ES",
+  RJ = "RJ",
+  SP = "SP",
+  PR = "PR",
+  SC = "SC",
+  RS = "RS",
+  MS = "MS",
+  MT = "MT",
+  GO = "GO",
+  DF = "DF",
 }

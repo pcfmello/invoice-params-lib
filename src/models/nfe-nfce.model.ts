@@ -12,6 +12,7 @@ import {
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
+  CodigoUnidadeFederativaEnum,
   UnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
 
@@ -75,12 +76,17 @@ export interface ProcessoEmissaoNfeModel {
   desc: string;
 }
 
-export interface UnidadeFederativaModel {
-  type: UnidadeFederativaEnum;
+export interface CodigoUnidadeFederativaModel {
+  type: CodigoUnidadeFederativaEnum;
   desc: string;
 }
 
 export interface CodigoRegimeTributarioModel {
   type: CodigoRegimeTributarioEnum;
+  desc: string;
+}
+
+export interface UnidadeFederativaModel {
+  type: UnidadeFederativaEnum;
   desc: string;
 }
