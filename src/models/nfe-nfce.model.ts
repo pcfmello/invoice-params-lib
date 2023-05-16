@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  CodigoRegimeTributarioEnum,
   FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
@@ -76,5 +77,10 @@ export interface ProcessoEmissaoNfeModel {
 
 export interface UnidadeFederativaModel {
   type: UnidadeFederativaEnum;
+  desc: string;
+}
+
+export interface CodigoRegimeTributarioModel {
+  type: CodigoRegimeTributarioEnum;
   desc: string;
 }

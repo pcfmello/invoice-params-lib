@@ -112,3 +112,9 @@ export enum UnidadeFederativaEnum {
   GO = 52,
   DF = 53,
 }
+
+export enum CodigoRegimeTributarioEnum {
+  SIMPLES_NACIONAL = 1,
+  SIMPLES_NACIONAL_EXCEDENTE = 2,
+  REGIME_NORMAL = 3,
+}

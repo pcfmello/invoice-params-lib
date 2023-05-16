@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  CodigoRegimeTributarioEnum,
   FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
@@ -15,6 +16,7 @@ import {
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
+  CodigoRegimeTributarioModel,
   FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
@@ -371,5 +373,20 @@ export const unidadeFederativaList: UnidadeFederativaModel[] = [
   {
     type: UnidadeFederativaEnum.DF,
     desc: "Distrito Federal",
+  },
+];
+
+export const codigoRegimeTributarioList: CodigoRegimeTributarioModel[] = [
+  {
+    type: CodigoRegimeTributarioEnum.SIMPLES_NACIONAL,
+    desc: "Simples Nacional",
+  },
+  {
+    type: CodigoRegimeTributarioEnum.SIMPLES_NACIONAL_EXCEDENTE,
+    desc: "Simples Nacional (excede o limite da receita bruta)",
+  },
+  {
+    type: CodigoRegimeTributarioEnum.REGIME_NORMAL,
+    desc: "Regime Normal",
   },
 ];

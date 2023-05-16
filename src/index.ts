@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  CodigoRegimeTributarioEnum,
   FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
@@ -16,6 +17,7 @@ import {
 
 import {
   CodigoModeloDocumentoFiscalModel,
+  CodigoRegimeTributarioModel,
   FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
@@ -32,6 +34,7 @@ import {
 
 import {
   codigoModeloDocumentoFiscalList,
+  codigoRegimeTributarioList,
   finalidadeEmissaoNfeList,
   identificacaoAmbienteList,
   identificacaoNfeList,
@@ -48,6 +51,7 @@ import {
 
 export {
   CodigoModeloDocumentoFiscalEnum,
+  CodigoRegimeTributarioEnum,
   FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
@@ -63,6 +67,7 @@ export {
 
   // MODELS
   CodigoModeloDocumentoFiscalModel,
+  CodigoRegimeTributarioModel,
   FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
@@ -78,6 +83,7 @@ export {
 
   // LISTS
   codigoModeloDocumentoFiscalList,
+  codigoRegimeTributarioList,
   finalidadeEmissaoNfeList,
   identificacaoAmbienteList,
   identificacaoNfeList,
