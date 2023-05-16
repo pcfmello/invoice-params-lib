@@ -148,3 +148,9 @@ export enum UnidadeFederativaEnum {
   GO = "GO",
   DF = "DF",
 }
+
+export enum IndicadorIeDestinatarioEnum {
+  CONTRIBUINTE_ICMS = 1,
+  CONTRIBUINTE_ISENTO = 2,
+  NAO_CONTRIBUINTE = 9,
+}

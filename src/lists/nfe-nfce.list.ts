@@ -14,6 +14,7 @@ import {
   TipoOperacaoEnum,
   CodigoUnidadeFederativaEnum,
   UnidadeFederativaEnum,
+  IndicadorIeDestinatarioEnum,
 } from "../enums/nfe-nfce.enum";
 
 import {
@@ -32,6 +33,7 @@ import {
   TipoOperacaoModel,
   CodigoUnidadeFederativaModel,
   UnidadeFederativaModel,
+  IndicadorIeDestinatarioModel,
 } from "../models/nfe-nfce.model";
 
 export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
@@ -502,5 +504,20 @@ export const unidadeFederativaList: UnidadeFederativaModel[] = [
   {
     type: UnidadeFederativaEnum.DF,
     desc: UnidadeFederativaEnum.DF,
+  },
+];
+
+export const indicadorIeDestinatarioList: IndicadorIeDestinatarioModel[] = [
+  {
+    type: IndicadorIeDestinatarioEnum.CONTRIBUINTE_ICMS,
+    desc: "Contribuinte ICMS",
+  },
+  {
+    type: IndicadorIeDestinatarioEnum.CONTRIBUINTE_ISENTO,
+    desc: "Contribuinte isento",
+  },
+  {
+    type: IndicadorIeDestinatarioEnum.NAO_CONTRIBUINTE,
+    desc: "Não Contribuinte",
   },
 ];
