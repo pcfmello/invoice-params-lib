@@ -154,3 +154,8 @@ export enum IndicadorIeDestinatarioEnum {
   CONTRIBUINTE_ISENTO = 2,
   NAO_CONTRIBUINTE = 9,
 }
+
+export enum IndicadorSeValorItemEntraTotalNfeEnum {
+  NAO_COMPOE_VALOR_TOTAL = 0,
+  COMPOE_VALOR_TOTAL = 1,
+}

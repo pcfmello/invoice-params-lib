@@ -15,6 +15,7 @@ import {
   CodigoUnidadeFederativaEnum,
   UnidadeFederativaEnum,
   IndicadorIeDestinatarioEnum,
+  IndicadorSeValorItemEntraTotalNfeEnum,
 } from "../enums/nfe-nfce.enum";
 
 export interface NaturezaOperacaoModel {
@@ -94,5 +95,10 @@ export interface UnidadeFederativaModel {
 
 export interface IndicadorIeDestinatarioModel {
   type: IndicadorIeDestinatarioEnum;
+  desc: string;
+}
+
+export interface IndicadorSeValorItemEntraTotalNfeModel {
+  type: IndicadorSeValorItemEntraTotalNfeEnum;
   desc: string;
 }

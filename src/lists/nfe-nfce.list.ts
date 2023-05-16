@@ -15,6 +15,7 @@ import {
   CodigoUnidadeFederativaEnum,
   UnidadeFederativaEnum,
   IndicadorIeDestinatarioEnum,
+  IndicadorSeValorItemEntraTotalNfeEnum,
 } from "../enums/nfe-nfce.enum";
 
 import {
@@ -34,6 +35,7 @@ import {
   CodigoUnidadeFederativaModel,
   UnidadeFederativaModel,
   IndicadorIeDestinatarioModel,
+  IndicadorSeValorItemEntraTotalNfeModel,
 } from "../models/nfe-nfce.model";
 
 export const naturezaOperacaoList: NaturezaOperacaoModel[] = [
@@ -521,3 +523,15 @@ export const indicadorIeDestinatarioList: IndicadorIeDestinatarioModel[] = [
     desc: "Não Contribuinte",
   },
 ];
+
+export const indicadorSeValorItemEntraTotalNfeList: IndicadorSeValorItemEntraTotalNfeModel[] =
+  [
+    {
+      type: IndicadorSeValorItemEntraTotalNfeEnum.NAO_COMPOE_VALOR_TOTAL,
+      desc: "Valor do item não compõe o valor total da NF-e",
+    },
+    {
+      type: IndicadorSeValorItemEntraTotalNfeEnum.COMPOE_VALOR_TOTAL,
+      desc: "Valor do item compõe o valor total da NF-e",
+    },
+  ];
