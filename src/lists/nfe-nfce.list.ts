@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
@@ -10,6 +11,7 @@ import {
 } from "../enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
+  FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
@@ -170,5 +172,24 @@ export const tipoEmissaoNfeList: TipoEmissaoNfeModel[] = [
   {
     type: TipoEmissaoNfeEnum.CONTINGENCIA_SVC_RS,
     desc: "Contingência SVC-RS (SEFAZ Virtual de Contingência do RS)",
+  },
+];
+
+export const finalidadeEmissaoNfeList: FinalidadeEmissaoNfeModel[] = [
+  {
+    type: FinalidadeEmissaoNfeEnum.NORMAL,
+    desc: "Normal",
+  },
+  {
+    type: FinalidadeEmissaoNfeEnum.COMPLEMENTAR,
+    desc: "Complementar",
+  },
+  {
+    type: FinalidadeEmissaoNfeEnum.AJUSTE,
+    desc: "Ajuste",
+  },
+  {
+    type: FinalidadeEmissaoNfeEnum.DEVOLUCAO_MERCADORIA,
+    desc: "Devolução de mercadoria",
   },
 ];

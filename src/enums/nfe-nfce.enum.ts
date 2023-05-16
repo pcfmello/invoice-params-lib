@@ -53,3 +53,10 @@ export enum TipoEmissaoNfeEnum {
   CONTINGENCIA_SVC_AN = 6,
   CONTINGENCIA_SVC_RS = 7,
 }
+
+export enum FinalidadeEmissaoNfeEnum {
+  NORMAL = 1,
+  COMPLEMENTAR = 2,
+  AJUSTE = 3,
+  DEVOLUCAO_MERCADORIA = 4,
+}

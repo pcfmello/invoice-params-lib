@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
@@ -10,6 +11,7 @@ import {
 } from "./enums/nfe-nfce.enum";
 import {
   CodigoModeloDocumentoFiscalModel,
+  FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
@@ -21,6 +23,7 @@ import {
 
 import {
   codigoModeloDocumentoFiscalList,
+  finalidadeEmissaoNfeList,
   identificacaoAmbienteList,
   identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,
@@ -32,6 +35,7 @@ import {
 
 export {
   CodigoModeloDocumentoFiscalEnum,
+  FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
@@ -42,6 +46,7 @@ export {
 
   // MODELS
   CodigoModeloDocumentoFiscalModel,
+  FinalidadeEmissaoNfeModel,
   IdentificacaoAmbienteModel,
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
@@ -52,6 +57,7 @@ export {
 
   // LISTS
   codigoModeloDocumentoFiscalList,
+  finalidadeEmissaoNfeList,
   identificacaoAmbienteList,
   identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,

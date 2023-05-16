@@ -1,5 +1,6 @@
 import {
   CodigoModeloDocumentoFiscalEnum,
+  FinalidadeEmissaoNfeEnum,
   IdentificacaoAmbienteEnum,
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
@@ -46,5 +47,10 @@ export interface IdentificacaoNfeModel {
 
 export interface TipoEmissaoNfeModel {
   type: TipoEmissaoNfeEnum;
+  desc: string;
+}
+
+export interface FinalidadeEmissaoNfeModel {
+  type: FinalidadeEmissaoNfeEnum;
   desc: string;
 }
