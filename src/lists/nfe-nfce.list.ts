@@ -5,8 +5,10 @@ import {
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
+  IndicadorPresencaEnum,
   NaturezaOperacaoEnum,
   OperacaoConsumidorFinalEnum,
+  ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "../enums/nfe-nfce.enum";
@@ -17,8 +19,10 @@ import {
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
+  IndicadorPresencaModel,
   NaturezaOperacaoModel,
   OperacaoConsumidorFinalModel,
+  ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 } from "../models/nfe-nfce.model";
@@ -204,5 +208,55 @@ export const operacaoConsumidorFinalList: OperacaoConsumidorFinalModel[] = [
   {
     type: OperacaoConsumidorFinalEnum.CONSUMIDOR_FINAL,
     desc: "Consumidor final",
+  },
+];
+
+export const indicadorPresencaList: IndicadorPresencaModel[] = [
+  {
+    type: IndicadorPresencaEnum.NAO_SE_APLICA,
+    desc: "Não se aplica",
+  },
+  {
+    type: IndicadorPresencaEnum.PRESENCIAL,
+    desc: "Operação presencial",
+  },
+  {
+    type: IndicadorPresencaEnum.INTERNET,
+    desc: "Operação não presencial, pela Internet",
+  },
+  {
+    type: IndicadorPresencaEnum.TELEATENDIMENTO,
+    desc: "Operação não presencial, Teleatendimento",
+  },
+  {
+    type: IndicadorPresencaEnum.NFCE_A_DOMICILIO,
+    desc: "NFC-e em operação com entrega a domicílio",
+  },
+  {
+    type: IndicadorPresencaEnum.PRESENCIAL_FORA_DO_DOMICILIO,
+    desc: "Operação presencial, fora do estabelecimento",
+  },
+  {
+    type: IndicadorPresencaEnum.NAO_PRESENCIAL_OUTROS,
+    desc: "Operação não presencial, outros",
+  },
+];
+
+export const processoEmissaoNfeList: ProcessoEmissaoNfeModel[] = [
+  {
+    type: ProcessoEmissaoNfeEnum.COM_APLICATIVO_CONTRIBUINTE,
+    desc: "Emissão de NF-e com aplicativo do contribuinte",
+  },
+  {
+    type: ProcessoEmissaoNfeEnum.AVULSA_PELO_FISCO,
+    desc: "Emissão de NF-e avulsa pelo Fisco",
+  },
+  {
+    type: ProcessoEmissaoNfeEnum.AVULSA_PELO_CONTRIBUINTE_CERTIFICADO_DIGITAL_SITE_FISCO,
+    desc: "Emissão de NF-e avulsa, pelo contribuinte com seu certificado digital, através do site do Fisco",
+  },
+  {
+    type: ProcessoEmissaoNfeEnum.AVULSA_PELO_CONTRIBUINTE_APLICATIVO_FISCO,
+    desc: "Emissão NF-e pelo contribuinte com aplicativo fornecido pelo Fisco",
   },
 ];

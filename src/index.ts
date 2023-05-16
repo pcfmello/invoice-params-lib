@@ -5,11 +5,14 @@ import {
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
+  IndicadorPresencaEnum,
   NaturezaOperacaoEnum,
   OperacaoConsumidorFinalEnum,
+  ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 } from "./enums/nfe-nfce.enum";
+
 import {
   CodigoModeloDocumentoFiscalModel,
   FinalidadeEmissaoNfeModel,
@@ -17,8 +20,10 @@ import {
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
+  IndicadorPresencaModel,
   NaturezaOperacaoModel,
   OperacaoConsumidorFinalModel,
+  ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 } from "./models/nfe-nfce.model";
@@ -30,8 +35,10 @@ import {
   identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
+  indicadorPresencaList,
   naturezaOperacaoList,
   operacaoConsumidorFinalList,
+  processoEmissaoNfeList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
 } from "./lists/nfe-nfce.list";
@@ -43,8 +50,10 @@ export {
   IdentificacaoNfeEnum,
   IdentificadorLocalDestinoOperacaoEnum,
   IndicadorFormaPagamentoEnum,
+  IndicadorPresencaEnum,
   NaturezaOperacaoEnum,
   OperacaoConsumidorFinalEnum,
+  ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
 
@@ -55,8 +64,10 @@ export {
   IdentificacaoNfeModel,
   IdentificadorLocalDestinoOperacaoModel,
   IndicadorFormaPagamentoModel,
+  IndicadorPresencaModel,
   NaturezaOperacaoModel,
   OperacaoConsumidorFinalModel,
+  ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
 
@@ -67,8 +78,10 @@ export {
   identificacaoNfeList,
   identificadorLocalDestinoOperacaoList,
   indicadorFormaPagamentoList,
+  indicadorPresencaList,
   naturezaOperacaoList,
   operacaoConsumidorFinalList,
+  processoEmissaoNfeList,
   tipoEmissaoNfeList,
   tipoOperacaoList,
 };
