@@ -73,10 +73,10 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 
 6.  Buildar o projeto: `$ yarn build`
 
-7.  Execute o comando `$ yarn release `.  
+7.  Execute o comando `$ yarn release`  
     A tag é gerada com a nova versão e segue o padrão [SEMVER](https://semver.org/).
 
-        - Veja mais sobre [Git Tag](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Criando-Tags)
+    - Veja mais sobre [Git Tag](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Criando-Tags/)
 
 8.  Publicar a nova versão no repositório NPM:
     - `$ git push --follow-tags origin develop && npm publish`
