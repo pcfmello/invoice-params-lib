@@ -8,7 +8,7 @@ import {
   IndicadorFormaPagamentoEnum,
   IndicadorPresencaEnum,
   NaturezaOperacaoEnum,
-  OperacaoConsumidorFinalEnum,
+  IndicadorOperacaoConsumidorFinalEnum,
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
@@ -63,8 +63,8 @@ export interface FinalidadeEmissaoNfeModel {
   desc: string;
 }
 
-export interface OperacaoConsumidorFinalModel {
-  type: OperacaoConsumidorFinalEnum;
+export interface IndicadorOperacaoConsumidorFinalModel {
+  type: IndicadorOperacaoConsumidorFinalEnum;
   desc: string;
 }
 

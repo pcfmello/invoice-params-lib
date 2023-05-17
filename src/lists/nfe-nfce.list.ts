@@ -8,7 +8,7 @@ import {
   IndicadorFormaPagamentoEnum,
   IndicadorPresencaEnum,
   NaturezaOperacaoEnum,
-  OperacaoConsumidorFinalEnum,
+  IndicadorOperacaoConsumidorFinalEnum,
   ProcessoEmissaoNfeEnum,
   TipoEmissaoNfeEnum,
   TipoOperacaoEnum,
@@ -28,7 +28,7 @@ import {
   IndicadorFormaPagamentoModel,
   IndicadorPresencaModel,
   NaturezaOperacaoModel,
-  OperacaoConsumidorFinalModel,
+  IndicadorOperacaoConsumidorFinalModel,
   ProcessoEmissaoNfeModel,
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
@@ -211,16 +211,17 @@ export const finalidadeEmissaoNfeList: FinalidadeEmissaoNfeModel[] = [
   },
 ];
 
-export const operacaoConsumidorFinalList: OperacaoConsumidorFinalModel[] = [
-  {
-    type: OperacaoConsumidorFinalEnum.NORMAL,
-    desc: "Normal",
-  },
-  {
-    type: OperacaoConsumidorFinalEnum.CONSUMIDOR_FINAL,
-    desc: "Consumidor final",
-  },
-];
+export const indicadorOperacaoConsumidorFinalList: IndicadorOperacaoConsumidorFinalModel[] =
+  [
+    {
+      type: IndicadorOperacaoConsumidorFinalEnum.NORMAL,
+      desc: "Normal",
+    },
+    {
+      type: IndicadorOperacaoConsumidorFinalEnum.CONSUMIDOR_FINAL,
+      desc: "Consumidor final",
+    },
+  ];
 
 export const indicadorPresencaList: IndicadorPresencaModel[] = [
   {
