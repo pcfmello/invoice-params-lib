@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.0.0...v1.1.0) (2023-05-18)
+
+
+### Funcionalidades
+
+* **develop:** Create ModeloNfeIdentificacao model ([4c008e6](https://github.com/pcfmello/invoice-params-lib/commit/4c008e6482886213fe7204711bd71095a2850034))
+* **develop:** Refactor IdentificacaoModel model and the readme ([1685de0](https://github.com/pcfmello/invoice-params-lib/commit/1685de02b592fa5294d73bab77971ee054bd443a))
+* **develop:** Update readme ([f00a029](https://github.com/pcfmello/invoice-params-lib/commit/f00a029fdfce72a7212d9bdb150f5f175251559f))
+
 ### [1.0.1](https://github.com/pcfmello/invoice-params-lib/compare/v1.0.0...v1.0.1) (2023-05-17)
 
 ## 1.0.0 (2023-05-17)
