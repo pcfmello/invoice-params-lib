@@ -2,7 +2,7 @@
   "name": "@gew-tecnologia/invoice-params-lib",
   "version": "1.1.0",
   "description": "Biblioteca que disponibiliza a maioria das parametrizações para geração de NF-e e/ou NFC-e",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./dist && yarn tsc --build",
     "clean": "tsc --build --clean",
