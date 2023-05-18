@@ -2,4 +2,5 @@ src/
 node_modules/
 .gitignore
 commitlint.config.js
-tsconfig.json
+package-lock.json
+yarn.lock
