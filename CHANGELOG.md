@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.1.0...v1.2.0) (2023-05-18)
+
+
+### Funcionalidades
+
+* **develop:** Fix bug to generate package build ([005f56a](https://github.com/pcfmello/invoice-params-lib/commit/005f56afe69ca026e2f00b7c0e48a9e49d7e5d79))
+
 ## [1.1.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.0.0...v1.1.0) (2023-05-18)
 
 
