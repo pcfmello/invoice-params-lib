@@ -38,6 +38,8 @@ import {
   UnidadeFederativaModel,
 } from "./models/nfe-nfce.model";
 
+import { IdentificacaoModel } from "./models/identificacao.model";
+
 import {
   codigoModeloDocumentoFiscalList,
   codigoRegimeTributarioList,
@@ -95,6 +97,7 @@ export {
   TipoEmissaoNfeModel,
   TipoOperacaoModel,
   UnidadeFederativaModel,
+  IdentificacaoModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,

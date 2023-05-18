@@ -102,28 +102,3 @@ export interface IndicadorSeValorItemEntraTotalNfeModel {
   type: IndicadorSeValorItemEntraTotalNfeEnum;
   desc: string;
 }
-
-export interface ModeloNfeIdentificacaoModel {
-  cnf: string;
-  natOp: NaturezaOperacaoEnum;
-  indPag: IndicadorFormaPagamentoEnum;
-  mod: CodigoModeloDocumentoFiscalEnum;
-  serie: number;
-  nNf: string;
-  dhEmi: Date;
-  dhSaiEnt: Date;
-  tpNf: TipoOperacaoEnum;
-  idDest: IdentificadorLocalDestinoOperacaoEnum;
-  tpAmb: IdentificacaoAmbienteEnum;
-  tpImp: IdentificacaoNfeEnum;
-  tpEmis: TipoEmissaoNfeEnum;
-  finNFe: FinalidadeEmissaoNfeEnum;
-  indFinal: IndicadorOperacaoConsumidorFinalEnum;
-  indPres: IndicadorPresencaEnum;
-  procEmi: ProcessoEmissaoNfeEnum;
-  cMunFG: number;
-  indIntermed: string;
-  verProc: string;
-  dhCont: Date;
-  xJust: string;
-}

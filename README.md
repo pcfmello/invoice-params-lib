@@ -55,6 +55,11 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **(indTot)**  
   Indica se valor do Item (vProd) entra no valor total da NF-e (v Prod)
 
+## Modelos/tipos disponíveis
+
+- **IdentificacaoModel**  
+  Define os tipos de dados necessários para a seção [Identificação](./src/models/identificacao.model.ts) da NFE.ini
+
 ## Instalar as dependências
 
 - `$ npm install --global commitizen`
