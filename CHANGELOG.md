@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.3.0...v1.4.0) (2023-05-19)
+
+
+### Funcionalidades
+
+* Add csosncf enum ([e01d412](https://github.com/pcfmello/invoice-params-lib/commit/e01d412d2c8d7731c73342d3104f8dc7f889d2d7))
+* Add cst-pis-cofins-entrada enum ([ec2f638](https://github.com/pcfmello/invoice-params-lib/commit/ec2f6383c01e2394779f8756cd44656e4de33c62))
+* Add cst-pis-cofins-saida enum ([f577a15](https://github.com/pcfmello/invoice-params-lib/commit/f577a15d8193ff3f2db8a546d1d7f619a27d7318))
+* Add cstcf enum ([a2129fb](https://github.com/pcfmello/invoice-params-lib/commit/a2129fbf75d3cb85be99277daa5655cd3c4b8ac4))
+* Add DestinatarioModel type ([ac7ff60](https://github.com/pcfmello/invoice-params-lib/commit/ac7ff60e2f93b2ceca25779c3c852c6d6d6136ec))
+* Add EmitenteModel type ([d39270d](https://github.com/pcfmello/invoice-params-lib/commit/d39270d7351bab505e6e6d3cfb2ec77f79c0ebb8))
+* Add icms model ([5a104b4](https://github.com/pcfmello/invoice-params-lib/commit/5a104b4dff1f15ae4c2f03b5da4c6dad032447d0))
+* Add modalidade-de-determinacao-da-bc list ([a933140](https://github.com/pcfmello/invoice-params-lib/commit/a9331407b408504f342fa1c267c2f6edfb71086e))
+* Add modalidade-de-determinacao-da-bc module ([3d04ce4](https://github.com/pcfmello/invoice-params-lib/commit/3d04ce45596216682075cb45e88a860487402206))
+* Add modalidade-de-determinacao-da-bc-icms-st module ([177c3b8](https://github.com/pcfmello/invoice-params-lib/commit/177c3b836b8dcca5e961639b5e9d0a1559118000))
+* Add motivo-da-desoneracao-do-icms module ([5fe90b2](https://github.com/pcfmello/invoice-params-lib/commit/5fe90b2bdaeeee309b21baa245e56183f4bf7198))
+* Add origem-da-mercadoria module ([ccd49b9](https://github.com/pcfmello/invoice-params-lib/commit/ccd49b90a40acd0c2caf2bb8773e0c7903702e87))
+* Add pis model ([ecc2825](https://github.com/pcfmello/invoice-params-lib/commit/ecc28251dd24572204caa1dfa8bd76ad85bf1f2b))
+* Add ProdutoModel type ([bec6ff8](https://github.com/pcfmello/invoice-params-lib/commit/bec6ff8154cb9b52ca5dda24b2645d856a5aae8a))
+
 ## [1.3.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.2.0...v1.3.0) (2023-05-18)
 
 
