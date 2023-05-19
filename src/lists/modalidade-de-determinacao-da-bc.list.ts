@@ -1,5 +1,5 @@
 import { ModalidadeDeterminacaoBcEnum } from "../enums/modalidade-de-determinacao-da-bc.enum";
-import { ModalidadeDeterminacaoBcModel } from "../models/modadlidade-de-determinacao-da-bc.model";
+import { ModalidadeDeterminacaoBcModel } from "../models/modalidade-de-determinacao-da-bc.model";
 
 export const modalidadeDeterminacaoBcList: ModalidadeDeterminacaoBcModel[] = [
   {
