@@ -1,25 +1,22 @@
 import {
-  CodigoRegimeTributarioEnum,
-  CodigoUnidadeFederativaEnum,
+  IndicadorIeDestinatarioEnum,
   UnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
 
-export interface EmitenteModel {
-  crt: CodigoRegimeTributarioEnum;
-  cnpjcpf: string;
+export interface DestinatarioModel {
+  idEstrangeiro: string;
+  cpfCnpj: string;
   xNome: string;
-  xFant: string;
+  indIeDest: IndicadorIeDestinatarioEnum;
   ie: string;
-  iest: string;
-  im: string;
-  cnae: string;
+  isuf: string;
+  email: string;
   xLgr: string;
   nro: string;
   xCpl: string;
   xBairro: string;
   cMun: number;
-  xNum: string;
-  cUf: CodigoUnidadeFederativaEnum;
+  xMun: string;
   uf: UnidadeFederativaEnum;
   cep: string;
   cPais: number;
