@@ -67,6 +67,9 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **(modBcSt)**  
   Indica a modalidade de determinacao da BC Icms-St
 
+- **(indSomaPisSt)**  
+  Indica se o valor do PISST compõe o valor total da NF-e
+
 ## Modelos/tipos disponíveis
 
 - **IdentificacaoModel**  
@@ -86,6 +89,12 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 
 - **DestinatarioModel**  
   Define os tipos de dados necessários para a seção [Destinatário](./src/models/destinatario.model.ts) da NFE.ini
+
+- **PisModel**  
+  Define os tipos de dados necessários para a seção [PisXXX](./src/models/pis.model.ts) da NFE.ini
+
+- **PisStModel**  
+  Define os tipos de dados necessários para a seção [PisStXXX](./src/models/pisst.model.ts) da NFE.ini
 
 ## Listas, models e enums de tributos
 

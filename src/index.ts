@@ -24,6 +24,7 @@ import { CsosnCfEnum } from "./enums/csosn-cf.enum";
 import { OrigemMercadoriaEnum } from "./enums/origem-da-mercadoria.enum";
 import { ModalidadeDeterminacaoBcEnum } from "./enums/modalidade-de-determinacao-da-bc.enum";
 import { MotivoDesoneracaoIcmsStEnum } from "./enums/motivo-da-desoneracao-do-icms-st.enum";
+import { IndSomaPisStEnum } from "./enums/ind-soma-pis-st.enum";
 
 import {
   CodigoModeloDocumentoFiscalModel,
@@ -53,6 +54,9 @@ import { MotivoDesoneracaoIcmsStModel } from "./models/motivo-da-desoneracao-do-
 import { ModalidadeDeterminacaoBcModel } from "./models/modalidade-de-determinacao-da-bc.model";
 import { IcmsModel } from "./models/icms.model";
 import { IpiModel } from "./models/ipi.model";
+import { PisModel } from "./models/pis.model";
+import { PisStModel } from "./models/pisst.model";
+import { IndSomaPisStModel } from "./models/ind-soma-pis-st.model";
 
 import {
   codigoModeloDocumentoFiscalList,
@@ -76,6 +80,7 @@ import {
 import { origemMercadoriaList } from "./lists/origem-da-mercadoria.list";
 import { modalidadeDeterminacaoBcList } from "./lists/modalidade-de-determinacao-da-bc.list";
 import { motivoDesoneracaoIcmsStList } from "./lists/motivo-da-desoneracao-do-icms-st.list";
+import { indSomaPisStList } from "./lists/ind-soma-pis-st.list";
 
 export {
   CodigoModeloDocumentoFiscalEnum,
@@ -102,6 +107,7 @@ export {
   UnidadeFederativaEnum,
   ModalidadeDeterminacaoBcEnum,
   MotivoDesoneracaoIcmsStEnum,
+  IndSomaPisStEnum,
 
   // MODELS
   CodigoModeloDocumentoFiscalModel,
@@ -130,6 +136,9 @@ export {
   MotivoDesoneracaoIcmsStModel,
   IcmsModel,
   IpiModel,
+  PisModel,
+  PisStModel,
+  IndSomaPisStModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,
@@ -152,4 +161,5 @@ export {
   origemMercadoriaList,
   modalidadeDeterminacaoBcList,
   motivoDesoneracaoIcmsStList,
+  indSomaPisStList,
 };
