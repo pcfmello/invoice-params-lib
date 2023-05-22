@@ -55,10 +55,51 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **(indTot)**  
   Indica se valor do Item (vProd) entra no valor total da NF-e (v Prod)
 
+- **(orig)**  
+  Indica a origem da mercadoria
+
+- **(motDesICMS)**  
+  Indica o motivo da desoneração do ICMS
+
+- **(modBc)**  
+  Indica a modalidade de determinacao da BC
+
+- **(modBcSt)**  
+  Indica a modalidade de determinacao da BC Icms-St
+
 ## Modelos/tipos disponíveis
 
 - **IdentificacaoModel**  
   Define os tipos de dados necessários para a seção [Identificação](./src/models/identificacao.model.ts) da NFE.ini
+
+- **ProdutoModel**  
+  Define os tipos de dados necessários para a seção [ProdutoXXX](./src/models/produto.model.ts) da NFE.ini
+
+- **PisModel**  
+  Define os tipos de dados necessários para a seção [PisXXX](./src/models/pis.model.ts) da NFE.ini
+
+- **IcmsModel**  
+  Define os tipos de dados necessários para a seção [IcmsXXX](./src/models/icms.model.ts) da NFE.ini
+
+- **EmitenteModel**  
+  Define os tipos de dados necessários para a seção [Emitente](./src/models/emitente.model.ts) da NFE.ini
+
+- **DestinatarioModel**  
+  Define os tipos de dados necessários para a seção [Destinatário](./src/models/destinatario.model.ts) da NFE.ini
+
+## Listas, models e enums de tributos
+
+- **Csosn e Csosn-Cf**  
+  [Código de Situação da Operação do Simples Nacional](./src/lists/csosn-csosncf.list.ts)
+
+- **Cst e Cst-Cf**  
+  [Código de Situação Tributária](./src/lists/cst-cstcf.list.ts)
+
+- **Cst Pis Cofins Entrada**  
+  [Código de Situação Tributária referente ao Pis e Cofins de entrada](./src/lists/cst-pis-cofins-entrada.list.ts)
+
+- **Cst Pis Cofins Saída**  
+  [Código de Situação Tributária referente ao Pis e Cofins de saída](./src/lists/cst-pis-cofins-saida.list.ts)
 
 ## Instalar as dependências
 
