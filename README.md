@@ -102,8 +102,11 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **CofinsModel**  
   Define os tipos de dados necessários para a seção [CofinsXXX](./src/models/cofins.model.ts) da NFE.ini
 
-  - **CofinsStModel**  
-    Define os tipos de dados necessários para a seção [CofinsStXXX](./src/models/cofinsst.model.ts) da NFE.ini
+- **CofinsStModel**  
+  Define os tipos de dados necessários para a seção [CofinsStXXX](./src/models/cofinsst.model.ts) da NFE.ini
+
+- **TotalModel**  
+  Define os tipos de dados necessários para a seção [Total](./src/models/total.model.ts) da NFE.ini
 
 ## Listas, models e enums de tributos
 

@@ -61,6 +61,7 @@ import { CofinsModel } from "./models/cofins.model";
 import { CofinsStModel } from "./models/cofinsst.model";
 import { IndSomaPisStModel } from "./models/ind-soma-pis-st.model";
 import { IndSomaCofinsStModel } from "./models/ind-soma-cofins-st.model";
+import { TotalModel } from "./models/total.model";
 
 import {
   codigoModeloDocumentoFiscalList,
@@ -148,6 +149,7 @@ export {
   CofinsStModel,
   IndSomaPisStModel,
   IndSomaCofinsStModel,
+  TotalModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,
