@@ -52,7 +52,7 @@ import { OrigemMercadoriaModel } from "./models/origem-da-mercadoria.model";
 import { MotivoDesoneracaoIcmsStModel } from "./models/motivo-da-desoneracao-do-icms-st.model";
 import { ModalidadeDeterminacaoBcModel } from "./models/modalidade-de-determinacao-da-bc.model";
 import { IcmsModel } from "./models/icms.model";
-import { PisModel } from "./models/pis.model";
+import { IpiModel } from "./models/ipi.model";
 
 import {
   codigoModeloDocumentoFiscalList,
@@ -129,7 +129,7 @@ export {
   ModalidadeDeterminacaoBcModel,
   MotivoDesoneracaoIcmsStModel,
   IcmsModel,
-  PisModel,
+  IpiModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,

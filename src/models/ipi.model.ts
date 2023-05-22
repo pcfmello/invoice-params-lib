@@ -1,4 +1,4 @@
-export interface PisModel {
+export interface IpiModel {
   cst: string;
   clEnq: string;
   cnpjProd: string;

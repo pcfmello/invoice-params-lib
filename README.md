@@ -75,8 +75,8 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **ProdutoModel**  
   Define os tipos de dados necessários para a seção [ProdutoXXX](./src/models/produto.model.ts) da NFE.ini
 
-- **PisModel**  
-  Define os tipos de dados necessários para a seção [PisXXX](./src/models/pis.model.ts) da NFE.ini
+- **IpiModel**  
+  Define os tipos de dados necessários para a seção [IpiXXX](./src/models/ipi.model.ts) da NFE.ini
 
 - **IcmsModel**  
   Define os tipos de dados necessários para a seção [IcmsXXX](./src/models/icms.model.ts) da NFE.ini
@@ -115,7 +115,7 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 
 4.  No arquivo _./src/index.ts_ importar e exportar os três arquivos criados anteriormente para estarem disponíveis para utilização.
 
-5.  Commit e push das alterações
+5.  Commitar as alterações
 
 6.  Buildar o projeto: `$ yarn build`
 
@@ -125,6 +125,7 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
     - Veja mais sobre [Git Tag](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Criando-Tags/)
 
 8.  Publicar a nova versão no repositório NPM:
+    - `$ npm login` (inserir username, password e email)
     - `$ git push --follow-tags origin develop && npm publish`
 
 ### GEW Tecnologia, 2023
