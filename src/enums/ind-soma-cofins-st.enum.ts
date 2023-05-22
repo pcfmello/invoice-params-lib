@@ -1,0 +1,4 @@
+export enum IndSomaCofinsStEnum {
+  VALOR_COFINS_NAO_COMPOE_TOTAL = 0,
+  VALOR_COFINS_COMPOE_TOTAL = 1,
+}
