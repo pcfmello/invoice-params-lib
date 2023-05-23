@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/pcfmello/invoice-params-lib/compare/v1.6.0...v1.6.1) (2023-05-23)
+
+
+### Errors Corrigidos
+
+* Update documentation pattern ([755052f](https://github.com/pcfmello/invoice-params-lib/commit/755052fe4dc795a3882ba11649ffdca5441ebe05))
+
 ## [1.6.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.5.0...v1.6.0) (2023-05-23)
 
 ### Funcionalidades
