@@ -11,15 +11,17 @@ import {
   IndicadorOperacaoConsumidorFinalEnum,
   IndicadorPresencaEnum,
   ProcessoEmissaoNfeEnum,
+  CodigoUnidadeFederativaEnum,
 } from "../enums/nfe-nfce.enum";
 
 export interface IdentificacaoModel {
-  cnf: string;
+  cUf: CodigoUnidadeFederativaEnum;
+  cNf?: string; // Código de segurança que é gerado aleatoriamente pelo ACBr Monitor Plus. Não deve ser o número da NFe.
   natOp: NaturezaOperacaoEnum;
   indPag: IndicadorFormaPagamentoEnum;
   mod: CodigoModeloDocumentoFiscalEnum;
   serie: number;
-  nNf: string;
+  nNf: string; // Deve ser incrementado à cada NFe e não pode se repetir
   dhEmi: Date;
   dhSaiEnt: Date;
   tpNf: TipoOperacaoEnum;
