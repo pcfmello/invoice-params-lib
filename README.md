@@ -73,6 +73,15 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 - **(indSomaCofinsSt)**  
   Indica se o valor do Cofins St compõe o valor total da NF-e
 
+- **(modFrete)**  
+  Indica o tipo de modalidade do frete da NF-e
+
+- **(tPag)**  
+  Indica a forma de pagamento dos produtos da NF-e
+
+- **(tpIntegra)**  
+  Indica o tipo de integração para pagamento
+
 ## Modelos/tipos disponíveis
 
 - **IdentificacaoModel**  
@@ -107,6 +116,24 @@ Biblioteca que disponibiliza a maioria das parametrizações para geração de N
 
 - **TotalModel**  
   Define os tipos de dados necessários para a seção [Total](./src/models/total.model.ts) da NFE.ini
+
+- **TransportadorModel**  
+  Define os tipos de dados necessários para a seção [Transportador](./src/models/transportador.model.ts) da NFE.ini
+
+- **VolumeModel**  
+  Define os tipos de dados necessários para a seção [VolumeXXX](./src/models/volume.model.ts) da NFE.ini
+
+- **FaturaModel**  
+  Define os tipos de dados necessários para a seção [Fatura](./src/models/fatura.model.ts) da NFE.ini
+
+- **DuplicataModel**  
+  Define os tipos de dados necessários para a seção [DuplicataXXX](./src/models/duplicata.model.ts) da NFE.ini
+
+- **PagModel**  
+  Define os tipos de dados necessários para a seção [PagXXX](./src/models/pag.model.ts) da NFE.ini
+
+- **InformacaoResponsavelTecnicoModel**  
+  Define os tipos de dados necessários para a seção [InfRespTecX](./src/models/informacao-responsavel-tecnico.model.ts) da NFE.ini
 
 ## Listas, models e enums de tributos
 

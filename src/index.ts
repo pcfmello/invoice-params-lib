@@ -26,6 +26,9 @@ import { ModalidadeDeterminacaoBcEnum } from "./enums/modalidade-de-determinacao
 import { MotivoDesoneracaoIcmsStEnum } from "./enums/motivo-da-desoneracao-do-icms-st.enum";
 import { IndSomaPisStEnum } from "./enums/ind-soma-pis-st.enum";
 import { IndSomaCofinsStEnum } from "./enums/ind-soma-cofins-st.enum";
+import { ModalidadeFreteNfeEnum } from "./enums/modalidade-frete-nfe.enum";
+import { FormaPagamentoEnum } from "./enums/forma-de-pagamento.enum";
+import { TipoIntegracaoEnum } from "./enums/tipo-integracao.enum";
 
 import {
   CodigoModeloDocumentoFiscalModel,
@@ -62,6 +65,15 @@ import { CofinsStModel } from "./models/cofinsst.model";
 import { IndSomaPisStModel } from "./models/ind-soma-pis-st.model";
 import { IndSomaCofinsStModel } from "./models/ind-soma-cofins-st.model";
 import { TotalModel } from "./models/total.model";
+import { ModalidadeFreteNfeModel } from "./models/modalidade-frete-nfe.model";
+import { TransportadorModel } from "./models/transportador.model";
+import { VolumeModel } from "./models/volume.model";
+import { FormaPagamentoModel } from "./models/forma-de-pagamento.model";
+import { TipoIntegracaoModel } from "./models/tipo-integracao.model";
+import { FaturaModel } from "./models/fatura.model";
+import { DuplicataModel } from "./models/duplicata.model";
+import { PagModel } from "./models/pag.model";
+import { InformacaoResponsavelTecnicoModel } from "./models/informacao-responsavel-tecnico.model";
 
 import {
   codigoModeloDocumentoFiscalList,
@@ -87,6 +99,9 @@ import { modalidadeDeterminacaoBcList } from "./lists/modalidade-de-determinacao
 import { motivoDesoneracaoIcmsStList } from "./lists/motivo-da-desoneracao-do-icms-st.list";
 import { indSomaPisStList } from "./lists/ind-soma-pis-st.list";
 import { indSomaCofinsStList } from "./lists/ind-soma-cofins-st.list";
+import { modalidadeFreteNfeList } from "./lists/modalidade-frete-nfe.list";
+import { formaPagamentoList } from "./lists/forma-de-pagamento.list";
+import { tipoIntegracaoList } from "./lists/tipo-integracao.list";
 
 export {
   CodigoModeloDocumentoFiscalEnum,
@@ -115,6 +130,9 @@ export {
   MotivoDesoneracaoIcmsStEnum,
   IndSomaPisStEnum,
   IndSomaCofinsStEnum,
+  ModalidadeFreteNfeEnum,
+  FormaPagamentoEnum,
+  TipoIntegracaoEnum,
 
   // MODELS
   CodigoModeloDocumentoFiscalModel,
@@ -150,6 +168,15 @@ export {
   IndSomaPisStModel,
   IndSomaCofinsStModel,
   TotalModel,
+  ModalidadeFreteNfeModel,
+  TransportadorModel,
+  VolumeModel,
+  FormaPagamentoModel,
+  TipoIntegracaoModel,
+  FaturaModel,
+  DuplicataModel,
+  PagModel,
+  InformacaoResponsavelTecnicoModel,
 
   // LISTS
   codigoModeloDocumentoFiscalList,
@@ -174,4 +201,7 @@ export {
   motivoDesoneracaoIcmsStList,
   indSomaPisStList,
   indSomaCofinsStList,
+  modalidadeFreteNfeList,
+  formaPagamentoList,
+  tipoIntegracaoList,
 };
