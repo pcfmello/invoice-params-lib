@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.5.0...v1.6.0) (2023-05-23)
+
+
+### Funcionalidades
+
+* Create duplicata model. ([d0b73bd](https://github.com/pcfmello/invoice-params-lib/commit/d0b73bd2f0eb5500f87438dbbc72ed8fb9cfe079))
+* Create fatura model. ([a73f5b3](https://github.com/pcfmello/invoice-params-lib/commit/a73f5b3f2842dffb0775d166854058761ad36a65))
+* Create forma-de-pagamento module ([11d5222](https://github.com/pcfmello/invoice-params-lib/commit/11d5222610708a056fd4e49a8fdd57d84a0ba094))
+* Create identificacao model. ([f0c0619](https://github.com/pcfmello/invoice-params-lib/commit/f0c06194b05f56a98f8fdb353c9e9a2b367cb076))
+* Create ind-soma-cofins-st module ([b967f52](https://github.com/pcfmello/invoice-params-lib/commit/b967f521cb6b7eaea2191e907a1954ee55243c17))
+* Create ind-soma-pis-st-enum type ([be3bc1f](https://github.com/pcfmello/invoice-params-lib/commit/be3bc1f95b9050bcb45af4b2ec7a5dce56050ebc))
+* Create informacao-responsavel-tecnico model. ([c413b47](https://github.com/pcfmello/invoice-params-lib/commit/c413b4747d6a8b1493dd2a462e74921e62b0554e))
+* Create modalidade-frete-nfe module ([ea2a679](https://github.com/pcfmello/invoice-params-lib/commit/ea2a6799bd2e36227d9769f5debec3b064daa106))
+* Create pag model. ([318d69f](https://github.com/pcfmello/invoice-params-lib/commit/318d69f7c92342bf6b8a1937a0e4a0d648f48895))
+* Create pis and cofinsst model. Update readme. ([dfd41aa](https://github.com/pcfmello/invoice-params-lib/commit/dfd41aa4f027e19e167dddacddad07d1bf018d01))
+* Create pis and pisst model. Update readme. ([b48f817](https://github.com/pcfmello/invoice-params-lib/commit/b48f81778d6bfafbb27a523b396c9bb3773f6cf8))
+* Create tipo-integracao module ([5b4bc68](https://github.com/pcfmello/invoice-params-lib/commit/5b4bc68eea7a16e722d41c8ef6ff3bf81a00047b))
+* Create total model. Update readme. ([4045c01](https://github.com/pcfmello/invoice-params-lib/commit/4045c0191deb0f7fe9674291a8ccb28e4d4711a9))
+* Create transportador model. ([30915e7](https://github.com/pcfmello/invoice-params-lib/commit/30915e7da0b58f47e29d764027268c599ce0d672))
+* Create volume model, export modules and update readme. ([13489dd](https://github.com/pcfmello/invoice-params-lib/commit/13489ddc496665f3b5b4f92eed655542579bd833))
+
 ## [1.5.0](https://github.com/pcfmello/invoice-params-lib/compare/v1.4.0...v1.5.0) (2023-05-22)
 
 
